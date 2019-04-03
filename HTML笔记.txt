@@ -1,0 +1,937 @@
+账号：qd22@sz.itcast.cn
+密码：5v9y1ksk
+qkl1@sz.itcast.cn
+23m5r89n
+
+html5{
+	一经推出，立马受欢迎新的Web【网络】时代来临 }
+http://ntlias-stu.boxuegu.com	
+
+https://vip.xunlei.com/index.html
+	优点：跨平台广泛{Pc 手机，Ipai,电脑}，开发硬件要求低{对笔记本		     重点代替Flash{尤其是对手机端开发尤为重要}
+
+软硬件环境需求低
+	硬件：双核，2G内存
+	软件：Windows，Mac OS X，Linux
+
+
+需要掌握的技能
+	HTML5 XHTML CSS3 javaScript JQuery：UI，Mobile
+
+xhtml：是指一种可扩展超文本标记语言。
+
+开发工具
+	WebStorm【外部四舅母】，Notepad++，Eclipse，text sublime【特克斯，沙不利木】，Dreamweaver【积木味儿】，intellij IDEA
+《
+》
+				
+注意（了解） 并不是所有的标签都有name属性   可以使用id属性
+《谷歌浏览器》姑路母
+	
+3.功能性链接
+
+行内元素   块元素		《br/》空元素最后/必须加上
+
+块元素：无论内容多少 都要独占一行。 <p>  <h1> 
+
+行内元素： 内容撑开宽度，左右都是行内元素可以排在一行 <strong>  <em>  <a>  
+ 
+Html是用来描述网页的语言，一种超文本标记语言，就是由一套标记标签组成<p>
+
+【第1章】
+
+HTML5的新特性
+	1，用于绘画的canvas【卡沃斯】标签
+	2，用于媒介回放的video和audio【奥吐】元素
+	3，对本地理想储存的更好支持
+
+浏览器的支持
+	Safari，Chrome【谷歌】，Firefox【火狐怀尔法克斯】，Opera，IE9
+包括
+	<head头部>  </title>网页标题</title>标题《泰斗》 </head>
+
+   	<body主体>  浏览器内容   </body>
+
+首页2行!
+	<DOCTYPE【刀客泰普】html>
+ 
+	<lang="en">  指浏览器需要完全了解HTML的那个版本才能确切的在浏览器中显示
+
+	Strict严格类型      Transitional过度类型      Frameset框架类型<p>
+
+
+utf-8
+	国际性通用的字符编码格式
+
+  	gb2312=简体中文包含中英文的页面
+
+	big5=繁体	ISO-885901=纯英文页面
+
+行内元素
+	b 粗字体      i 斜体      em 斜字体     
+
+语义化标签：
+	底线<ins> 加粗<strong> 删除<del> 斜体<em>    	
+	建议使用带语义的标签搜索引擎更容易查找发现
+	不可给行内元素赋值
+
+块元素
+	h1 字体大小   p 换行	      <blockquote>首行缩进两隔【重点】
+
+空元素
+	br 换行 空标签：没有元素内容
+
+7h1-/h6 字体大小独占一行    p-/p  空行     <br/>=换行《空元素无属性》    em-/em斜字体 
+
+      	i-/i=斜字体       b-/b=粗字体    sub下标字     sup上标字       strong 加重字体 【强壮的】
+
+	&gr=大于          &&lt=小于       &quot=引号   &quot=单引号    ins插入字有底线   del 删除线
+
+
+字体显示位置
+
+	center居中 【肾特】    left=靠左【乐福特】      【额来】align="right"靠右最规范的写法  【莱特】 
+ 
+背景颜色
+
+
+
+	<body bgcolor="red">页面红色【卡了】颜色
+
+分割线
+ 	<hr color="#000000"颜色分割线>    size = "10" 厚度 【赛思】     width = "240"长度【未吃】     hr noshade=无阴影分割线 
+	
+	align="left"靠左     left右       居中是默认的          u=底线
+
+图片格式 
+   	JPG  gif  BMP  PNG     注释<!--文字-->    
+0 
+
+【第二章】   
+
+img src = "image/e.jpg"图片   width="160宽度"   height="高度"     alt=图片出错还能看见的替代文本    title="图片文字提示"<p>【太逗】
+
+
+<a> href = "连接地址https://www.uc123.com/"     target = "_self"自身窗口"【瑟夫】      _blank新建窗口"</a>【布雷克】
+
+
+锚链接
+	设置需要跳转位置的NAME属性很重要，在跳转位置加#在加需要跳转位	置的name属性即可<a name="tise">你好</a>		  给tise赋	一个name属性	本页面寻找位置 
+
+	<a href="#tise">跳转到你好</a>    只需要在链接地址加个#号键即可
+	跳转不可重名
+	
+
+无序u1
+	全部文字向右移动两格遵守位W3C标准《ul里只能嵌套li，不能嵌其他标签当Li里面可 
+   		        
+   	【泰补】type=square实体方心        circle空心圆<p>【色漏】
+ 
+有序ol
+	默认数字123 type=abc I=I,II,III i=i,ii,iii  start=“10”设置从10开始
+
+
+定义列表dl 	
+	标题由dt 	dd定义内  	容缩进3格<p>
+
+【重点】list-style-image: url("image1/icon.jpg");【CSS使用图片做列表项形状】
+
+ list-style-type: armenian;
+    /*【CSS改变列表项形状】*/
+
+
+<table> border="1"外框线     cellspacing="10"单元格之间的间距   
+
+折叠边框：CSS使用：border-collapse：collapse；
+ cellpadding="50   内容与单元格之间的内容，如果设置内容ailgn=center，就不需要设置。
+
+	《caption》重要表格居中加重
+bgcolor=“背景颜色”	background  添加图片
+	<tr>行
+	<td>单元格1 </td><td>单元格2 </td>
+	</tr> 
+</table>
+	colspan   一行下面的跨几烈      rowspan    跨几行（重点）
+
+
+【第三章】
+
+【框架】
+frameset不能和body同时使用，cols=列 rows=“%25”%25“*”把整个网页分成3行3个网页  bordercolor=red红色<p>	横向摆放rows《路死》
+
+		
+frameborder：是否显示框架周围滚动框     noresize:默认是可以调整窗口大小noresize=“no”   scrolling="no"在<frame src中使用是否添加滚动条，不写就是默认
+
+
+	《frame src="窗口地址"target=“_parent”“_top”在框架网页在父框集中打开链接，在顶级整个浏览器窗口中打开链接
+
+
+18.header 標題頭部區域的內容  footer 標記腳步區域的內容 section Wed頁面一塊獨立區域 article 獨立的文字內容 aside 相關內容或應用 	nav 導航內容<p></p>
+
+表单《form》属性
+	action【了神】=跳转res.heml    
+	method【麦神】="post"《/form》   
+	如果action属性为空 则默认表单提交到本页
+
+	post提交不会改变地址栏状态，表单数据不会显示， 
+	post提交方式安全性明显高于get提交
+	get提交方式，表单数据中URL信息中显示  	 
+ 
+
+《input》属性 type：类型  	  name：名称               《歪累》 value  元素初始值可省略 	
+placeholder提示站位字符；输入内容自动清除
+
+	     size：初始宽度        maxlength：最大字符            《却可》checked： 指定按钮是否被选中
+
+
+
+搜索框按钮
+	reset 重填        submit 搜索《萨博没趣》        《巴特》button普通
+
+
+	<input type="search" name="sousuo"/>
+    		
+	<input  type="submit" value="Go"/>提交搜索submit
+
+    	<input type="number" name="1" min="0" max="100" step="10">
+
+    	<input type="submit">要求值必须是0,10,20,30，100。
+
+图片按钮
+	<input type=“image” src=“image/aa”>
+
+文本框
+   	密码框<input type="password"》
+
+   	单选按钮《input name="gen" type="radio" value="男" checked>
+
+【重点】表单必用属性，使其点击文字也可以输入表单内容
+	<label for="nv">女</label>【雷波】
+  	for=“id==nv”		  
+复选框
+	《input type="checkbox【却克波死】" name="interest" value="sports" checked【缺克】/>
+	《c婆克死》
+
+单选框
+	《input type=《锐丢》“radio” name“sex”》
+	《input type=“radio” name“sex”》
+	《瑞di哦》
+
+       	 运用单选按钮应该具有相同的名字，便于互次选择复选框按照使用环境决定 
+         如果选项是并列关系，就需要设置相同的名字
+
+下拉列表
+	下拉多选框：<select multiple>
+	《select》《色来特》
+		《哦踢神》<option>下拉表单</option >
+		
+	《/select》
+
+文本域
+《textarea【特斯特儿越】 cols=“30” rows=“20”》请在次填写个《/textarea》
+
+禁用表单标签：disabled
+
+上传文本，图片
+	《enctype》编号属性为multipart/form-data	将表单数据分为多部分提交
+	<input type="file" name="001"><br/>
+	<input type="buttom"<巴特><按钮》
+        <input type="submit"name="001"value="上传"/>
+
+
+【第4章css样式】
+
+【重点】外部样式链接式：
+	《style 》样式定义【思特哦】   《link》资源引用【力可】
+	<link href="com.css"    rel="stylesheet"引入外部样式      type="text/css"引入文档类型>
+	《/style》
+
+
+外部样式 <link href="com.css" rel="stylesheet" type="text/css"》非常重要不可少/>
+         链接式属于Xhtml范围，大都网页使用这种
+        <@import url（“com.css”）>导入式
+
+
+内部样式《style》标签用于html定义样式信息。位于《head》标签中
+	声明a{font-size：px；字体大小 colre：red；颜色}在《style标签中》
+	方便在页面中修改样式，不利于页面共享维护
+
+
+行内样式《a style=“color：red；”》颜色
+       《p style=“font-size：20px；corlor；green；”》《/p》
+	《写在body标签中》仅对当行标签有用，不能是内容与表现相分离，	
+        没优势，一般不推荐使用
+
+
+样式优先级 行内样式》内部样式》外部样式  就近原则
+
+
+普通选择器 标签选择器 就是<style>标签中普通的声明a{}p{}
+ 
+ID选择器：唯一使用，加载区别，先找到结构内容在加载样式，具体用于框架级设计
+
+class选择器：重复使用，先加载样式，在去找结构内容，用于具体数据内部构造
+
+类选择器 <style>标签中.green{font-size:20px;color:red;}设置类选择器在页面中直接使用	        
+         <p class="green"调用即可 在同一页面可频繁使用，应用方便
+
+
+ID选择器 可在本页面<style>标签中直接
+	#second{font-size: 10px;color: red;}声明赋值在调用时加id=second
+
+派生选择器：h1,h2,h3,h4,h5,h6{font-size:18px;color:red;}
+
+#pia a{color：bulue；}《p id=“pia”》<a>我们变蓝色<a/>《/p》
+
+#div p{color:buler;}
+	<div id="div"><div/>
+
+属性选择器：[title]{color:blue}未赋值可随便《p title=“随便写”》
+
+属性和值选择器：[title=te]{color:red}赋值的情况下《p title=“te”》必须填写值。【注意】
+						
+
+【span标签】 p{font-size:14px; }
+
+	    p .show,.bird span{fontsize:36px;fontweight:bold;color:blue;}
+        
+	    必须要<span class=“show”类选择器调用 </span>才能有用，不然无用
+
+	    p #dream{font-size: 24px;font-weight: bold;  color:red;}
+  	
+  	    <span id="dream">ID选择器中使用</span>
+
+            <p>我们<span>北大青鸟</span></p>=先用《p》我们：14px 
+
+	   《在嵌套类选择器》北大青鸟：36px，加粗，蓝色
+
+ID选择器》类选择器》标签选择器 无就近原则    
+
+【重点】同一页面出现【使用】先后顺序
+
+后代选择器：p b{pont-size:20px;color:red;}b{pont-size:20px;color:red;}
+
+              调用b可实现里面的功能外加嵌套了《p》换行，《b》加粗
+
+	
+
+
+【第5章】 标签多元化
+
+
+块元素	内容《container》坑体妞
+	独占一行新行开始《h1 p ul  div》    内联元素《b a img  span》不会换行，
+
+span
+	文本内元素  可直接声明一般使用配合div标签使用，可单独声明，不赋属性，无用。
+
+	    
+字体类型；两种声明  可同时声明使用加空格即可：font：italic斜体 bold加粗 14px “楷体”
+
+
+属性顺序为：字体风格-粗细-大小-类型 
+
+字体系列：
+	风格【发木累】
+	font-famtasy：
+设置自己的字体【重点】
+@font-face {
+    font-family: my font;
+    src:url();
+}
+div{
+    font-family【坏母漏】:"my font";
+}
+
+p{font-size:14px; } 字体大小
+  font-weight【维特】：bold字体加粗     
+  color：颜色
+	    
+  font：italic斜体  最粗字体：bolder    最细：lighter    normal原字体500 
+	300是细的 900是粗      
+【重点】
+在设置图片li{
+		list-style-image：url（）
+		【但是li中点不能设置其颜色，位置】
+
+文本属性；sh首行缩进text-indent:20px;    每行高度：line-height:30px;    
+
+         透明度；rgba（0,0,250,0.5）
+
+文本装饰：底线声明方式：text-decoration: underline; 
+
+	 水平线对齐text-align:right;
+
+http://ntlias-stu.boxuegu.com  
+       靠左center居中上化线：overline   删除
+
+英文大小默认：text-transform：capitalize：英文首字母大写
+		text-transform：lowercase：全部小写
+		text-transform：uppercase：全部大写
+
+文字阴影：text-shadow{5px 5px 5px red}向右在向下模糊度最低为0阴影颜色是红色。
+
+
+文本换行规则：word-wrop：normal;必须设置宽度width5个字基本100px左右
+		自动换行属性，如果是英文字母就算不会对齐也不会把单词分开。
+
+常见链接去掉下划线：text-decoration：none；
+
+Css链接的四种状态：
+	a:link【普通的，未被点击前链接】{
+    		color: #ff0000;
+}
+	a:visited【被访问之后】{
+    		color: #FF6600;
+}
+	a:hover【鼠标移动上面】{
+    		color: blue;
+}
+	a:active【鼠标点击上面】{
+    		color: #000;
+}
+
+   text-decoration【链接去下划线】: none;
+    background-color【链接设置背景颜色】: #ffccff;
+
+超链接伪类样式a{  color:black;text-decoration: none}
+	
+【重点】a:hover{ color:#FF6600;text-decoration: underline;}变色，出现下划线
+
+             平常是黑色，普通字体，挡鼠板点击时颜色变成红色，字体显示下	
+    
+
+ul li{
+    /*list-style-type【CSS改变列表项形状】: armenian;*/
+    list-style-image【CSS使用图片做列表项形状】: url			("image1/icon.jpg");
+【使用背景图片】
+ background: url("image1/recruit-03.jpg")no-repeat;
+}
+
+list-style-position:inside【内容向右移动一些作用很小】;
+
+
+
+鼠标形状：span{cursor: pointer;}鼠标点击时出现特殊形状（手指行）常用			
+
+	    crosshair：（十字状）    default：默认    wait：正忙（沙漏）
+		
+    	    help：（手指型+？）帮助    text：指式文本
+
+<div>标签使用：#nav{width:300px;background-color: #00ff00;}
+
+	 使用id浏览器设置整体页面宽度，颜色方法：
+
+	 <div id="nav"></div>可嵌套类选择器
+
+	.title{ text-indent: 1em;首行缩进 line-height:30px;距标题行高，因为宽在
+	《div已经设定》<div class="title">全部商品类型</die>
+
+背景图片使用：background-image:url("img/book.jpg");
+
+背景图像平铺；background-repeat:repeat;图像平铺（出现很多一样的图片）
+
+	     no-repeat只显示一次  repeat-x平铺  y 垂直铺  
+背景图像是否固定或者随着页面其余部分滚动：background-attachment：fixed【no】图片随滚动一直存在【重点】
+
+背景图片显示位置：background-position:333px 330px;图片向右，在向下偏移 
+	
+	默认为左上角   加-333px -330反方向左 在向上（可用百分比：50% 50%）
+
+	auto  默认值，保存图片原来尺寸
+	
+	left 左下角  right：右下角   top：水平居中   bottom：垂直居中   center中心
+
+综合声明 background:#FFFFFF背景图片 url("img/dress01.png") 
+
+	205px向右 10px向下 只显示一次no-repeat;
+
+CSS 渐变   
+CSS渐变(线性渐变): background: linear-gradient(,color1,color2,..)
+
+
+
+
+【第6章】
+ 
+单词：边框【播的】 外边距【吗节】 左【乐福特】右【莱特】 底边距【包初】上【桃浦】	整个页面【body】*居上   img【图片】 no【滚动条】
+ content【内容】  
+
+盒子组成：内容 content【坑肾特】    内边距 padding     外边距 margin   边框 border
+	
+内边距padding ：在content内容外，边框内，与border厚度无关两种不同的概念
+
+		上top《托普》    右right   底bottom《巴德》  左left    可同时声明
+
+		规则： 上下 左右      上  左右  下      上右下左
+
+外边距 margin 【同上】在边框外的区域，默认为透明，接收任何长度单位厘米cm,%百分，
+
+      body{margin：0px}外边距为0，在设置边框的外边距最标准
+
+
+边框样式border
+
+边框线：border-style：上top     右bottom     下left     左right  
+
+		规则： 上下 左右      上  左右  下      上右下左
+
+       样式border-top：实线 solid    点线：dotted     虚线：dashed   双线:double
+	
+       圆角边框：border-radius：10px可设置弧度   
+	盒子阴影：box-shadow：inset内阴影 先纵后横 模糊半径 颜色
+
+边框阴影box-shadow: 10px 10px 10px #ffccff向右向下偏移10px，模糊度10px，加颜色   
+	
+       边框图片：border-image		
+
+边框线颜色  border-color   border-top-color：
+
+边框线厚度  border-width   border-top-width：10px；
+
+【重点】可同时声明 border: solid blue 2px ; 必须使用《div》标签实现嵌套，圆角需要设置	背景颜色才能明显，边宽盒子大小内容居上，行距盒子内多高内容居中，可把边框撑大
+		
+
+边框样式： #regist{width: 230px;  border: 9px #FF6600 solid;}
+
+	  设置边框 宽度 厚度 颜色 实线。
+
+     使用：<div id=“regist”>标签使用
+
+body,h1{ margin: 0px 11px}上下是0，左右内外边距是11，设置在body中可内外边距同时进行
+
+	边框宽度，行高 实线 颜色 厚度 上边距20px 左右居中     
+	 .box{width: 398px;
+         line-height: 30px;
+         border: 1px solid #3A6587;
+         margin: 20px auto ;
+        }
+
+标题背景字体 h1{text-align: center; font-size: 16px;
+	       line-height:55px;color:#FFF;
+               background-color: #3A6587}
+
+字体综合赋值：【居中 auto】标题字体大小 行高 字体颜色  背景颜色}
+
+输入框样式
+	.textInput{border: 1px #7B7B7B solid;width: 130px;height: 17px;
+
+类选择器 <tb class="leftTitle">姓名：</tb>
+
+         <tb><input name="user" type="text" class="textInput"/> </tb><p>
+
+         div:nth-of-type(1)input{border:1px solid black;}
+
+         div:nth-of-type(2) input{border: 1px dashed red;}
+
+         div:nth-of-type(3) input{border: 2px dashed red;}	
+	
+	li p:nth-of-type(1)设置后代选择器li中p标签可以有多个
+
+【去点】display: inline-block;《美丽的》beauty《biu体 》
+	list-style：none：
+	去掉<li>中的点
+
+
+外边距合并：小的服从大的原则
+
+第7章css定位
+
+position 属性：【普鸡省】
+	static【静态】使其偏移量无效【使用较少】
+	relative【相对】可使其图片覆盖，谁覆盖谁设置z-index：值大小决定
+	absolute【绝对布局】使其不占位置
+	fixed【固定】不随滚动条移动
+	opacity：设置背景颜色强弱0.1-1
+浮动 
+	float：左left      右rigth     清除浮动：clear：both；
+ 
+*{margin：0px；padding0px}：相当于body{设置一样}
+
+margin-left：0px；margin-right：0px；内容居中
+
+width：100px；不设置高的话相当于自适应内容高就多高}
+
+margin：10px aotu；相当于上下外边距为10，左右居中。
+
+ul:nth-of-type(1){    
+	width:100px;
+    	float: left;
+   	border: 1px solid red;
+    	line-height:20px;}sou
+使用无序《ul》《li》沉载图片《/li》《/ul》
+	《ul》《li》沉载文字《/li》《/ul》
+横向排放只需要把《ul》中的宽度增加即可
+
+页面沉载流氓视频简单方便
+	<video autoplay loop width="600"height="300" >
+        <source src="../images/video.webm"></video>
+	
+页面添加音乐
+	<audio controls >
+        <source src="../images/李荣浩%20-%20老街.mp3"/></audio>
+
+controls：播放，暂停，播放进度，时间显示，声音大小播放，
+
+自动播放：autoplay 	循环播放：loop
+
+【导航栏】【重点】
+使用无序列表
+
+竖向摆放：《ul》《li》导航栏1《li》《ul》
+ul{
+   list-style-type: none;【去点】
+    margin: 0px;【设置内外变为0这是基础之后内容需要在设置其位置偏移量】
+    padding: 0px;
+··background-color: #4ee8ff;
+    width:450px;
+    text-align: center;
+}
+a:link,a:visited{
+     text-decoration: none;【设置下划线】
+     display: block;	【把行内元素变成块元素】
+     background-color: red;
+     width: 60px;
+    color: #fcfff2;
+    text-align: center;【内容居中】
+ }
+a:hover,a:active{
+    background-color: blue;【点击后的颜色】
+}
+横向摆放
+	li{
+		display：inline【即可非常简单】
+		padding-left：15px【设置内边距使其更好看】
+		padding-right：15px【使其左右对齐】
+
+分类：
+	《p》then is my wed《/p》
+
+		width：200px；【内容宽度不拆分作用】
+		line-height：100%【使用百分数最好100是基础】
+				【越大宽】
+		max-width：100px【最大宽度】
+	
+鼠标形状：span{cursor: pointer;}鼠标点击时出现特殊形状（手指行）常用			
+
+	    crosshair：（十字状）    default：默认    wait：正忙（沙漏）
+		
+    	    help：（手指型+？）帮助    text：指式文本
+
+设置内容是否可见
+
+		visibility：hidden【设置内容不可见】
+		visible【内容可见】
+
+2D，3D转换
+
+	我们对元素进行移动，缩放，转动，拉长，拉伸，转换是使元素改变形状
+	尺寸，位置的效果
+	可以使用2D，3D来转换元素。
+
+2D：
+属性移动【穿C特】translate（）;
+   transform:translate(200px,100px) ;/*向右在向下移动*/
+    -webkit-transform:translate(200px,100px);/*safari  chrome【谷歌】
+    -ms-transform: translate(200px,100px);/*opera*/【IE】【360】
+    -moz-transform: translate(200px,100px);/*Firefox*/
+
+    /*同属相赋值不能在同一个div里，效果不能兼容*/
+
+	transform: skew(0deg,10deg);/*y(先竖向倾斜)x（横向倾斜）*/
+    	transform: rotate(50deg);/*旋转属性*/
+    	transform: scale(2,2);/*缩小放大*/
+    	
+    /*计算方式1*50+0*50=向右移动50px
+              0*50+1*50=在向下移动50
+              跟translate【属性相似】*/
+    transform: matrix(1,0,0,1,50,50);矩形
+	
+3D：【压缩】
+	transform: rotateX(120deg);/*3D转换X轴*/
+    	transform: rotateY(120deg);/*Y轴转换*/
+
+动画：
+#div{
+    width: 100px;
+    height: 100px;
+    position: relative;【必须设置相对定位】
+    background-color: red;
+    animation: anim 5s;【设置动漫名称，操作时间】
+	infinite alternate【在时间后面添加=无限循环动漫】
+}
+@keyframes anim{【@keyframes+名称引入】
+    0%{
+        background: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background: blue;
+        left: 200px;
+        top: 200px;
+    }
+    50%{
+        background: green;/*此时初始位置应该是右200向下200*/
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background: #fffd53;/*右向左回归200即初始坐标0向下的位置不变*/
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background: #ff36e8;/*回归初始位置坐标*/
+        left: 200px;
+        top: 0px;
+    }
+}
+
+多列：
+	#div1{
+    		column-count: 4;/*把文字分为4列*/
+    		column-gap: 60px;/*间隔60px*/
+
+		使用5px的分割实线【outset】 红色
+    		column-rule: 5px outset #FF0000;、
+		column-width: 250px;【设置每个个体宽度】
+}
+
+过度：
+
+ <div>这是一个过渡效果</div>
+	【点击前】
+	 transition:all 0.8s ease-in-out;【过渡时间为8.0秒结束】
+	【点击后这里旋转360度最合适刚好平铺】
+	
+	z-index: 1;【点击任何图片都会在最前面显示重点】
+	transform: rotate(360deg) scale(1.5);【放大1.5倍】
+
+div{		【初始效果】
+    width: 100px;
+    height: 100px;
+    background-color:red ;
+    transition: width 2s,height 2s,transform 2s;【基础不能少】
+
+    -webkit-transition-delay: 2s;/*延迟2秒执行*/【鼠标点击】
+					【动漫效果2秒后执行】
+    -moz-transition-delay: 2s;
+    -ms-transition-delay: 2s;
+    -o-transition-delay: 2s;
+    transition-delay: 2s; ;
+}
+div:hover{		【鼠标点击后】
+    width: 200px;
+    height: 200px;
+    transform:rotate(360deg);/*鼠标点击时旋转360度*/
+    -webkit-transform:rotate(360deg);/*各种服务器兼容性*/
+}	
+
+瀑布流效果：
+<div class="container">
+  <div><img src="image1/1.jpg" width="250px"height="250px"alt="美女">
+         <p>标签：美女</p></div>
+
+.container{
+    column-width: 250px;【设置每个个体宽度】
+    column-gap: 5px;【个体之间间隔】
+}
+.container div{
+    width: 250px;
+    margin: 15px 0px;
+}
+p{
+    text-align: center;
+}
+【内容拉伸时间为5S，透明度越来越清晰】
+        #div1:hover #div2{  animation: spread 5s; }
+        @keyframes spread {
+            0%{  height: 0;  opacity: 0;  }
+            25%{  height: 30px;  opacity: 0.25;  }
+            50%{  height: 60px;  opacity: 0.5;  }
+            75%{  height: 90px;  opacity: 0.75;  }
+            100%{  height: 120px;  opacity: 1;  }
+        }
+
+【重点，内容溢出部分隐藏】
+	overflow: hidden;
+
+【透明度】
+	opacity: 0;
+
+ /*背景图片最好使用行高与偏移显示一次的属性*/
+            display: block;padding-left:40px;line-height: 35px;
+            background: url("icon_02.gif")10px 5px no-repeat;
+
+清除浮动：
+	cloer：left height both【左右】
+	设置清除左右浮动，在加一个<div class="clear"></div>
+	扩展盒子高度，从而包裹图片与内容。
+
+包裹图片内容方法2：
+	如果使用的是绝对定位就不合适
+	overflow：hidden；
+	width：600px；
+	
+========================================================
+html:5
+	    <div class="div1" id="box" data-zge="16" 		data-weight = '25kg'>你好</div>
+创建标签添加到body中:
+	<body>
+    	    <p>你好!</p>
+	</body>
+    var box = document.getElementById("box");
+    console.log(box);
+    
+    console.log(box.getAttribute("zge"));
+    console.log(box.getAttribute('weight'));
+    console.log(box.setAttribute('zge',20));
+   
+    H5新增date取值方法
+    console.log(box.dataset.zge);
+    console.log(box.dataset);获取的是一个伪数组需要遍历
+    for (var key in box.dataset) {
+        console.log(box);
+        onsole.log(box.dataset[key]);
+        }
+
+	<script>		(亏额了蒙特)
+短语
+1.createElement 建立元素新建一个新的元素标签名方法
+
+2.jquery createElement 动态创建元素
+    	    var span = document.createElement('span');
+
+3.该函数将页面 标记的 innerHTML 设置为响应的文本。
+    		span.innerHTML = "我是胡鑫";
+                document.body.appendChild(span);
+
+4.方法作用是：在指定节点的最后一个子节点列表之后添加一个新的子节点。
+H5自定义属性:
+
+
+
+	js中获取元素
+	var box = document.getElementById("box");
+    	console.log(box);
+取值方法:
+    console.log(box.getAttribute("zge"));
+    console.log(box.getAttribute('weight'));
+新增元素方法:
+    console.log(box.setAttribute('zge',20));
+   
+H5新增data取值方法:
+    console.log(box.dataset.zge);
+    console.log(box.dataset);
+
+    for (const key in box.dataset) {
+        console.log(box.dataset);
+        console.log(box.dataset[key]);
+        }
+
+脱裤,在网页中下载Css动画效果使用:
+
+百度搜索网址:http//Animate.css=Https://Daneden.github.io
+	
+右键下载添加项目文件引入即可方便:
+	<link rel="stylesheet"href="animate.css">
+	
+添加class即可:
+       <img src="1.jpg" alt="" class="animated jello">
+
+伸缩布局:
+	   display: flex;
+           row：主轴方向为x轴（默认起点靠左）
+           row-reverse:主轴方向依然为x轴，只不过起点靠右
+           column：主轴方向为y轴
+           column-reverse：主轴方向为y轴，只不过靠下
+          
+           flex-direction: column;
+                设置元素在主轴方向上的排列位置
+           flex-start：默认值，起点对齐
+           flex-end 跟reverse不一样，这个只是 终点对齐
+           center：居中
+space-around：元素和元素之间有间距，两边也有间距，不一定有间		距，要看主轴方向够不够放，够放才有间距
+
+space-between：元素和元素之间有间距，两边没有间距，不一定有间		距，要看主轴方向够不够放，够放才有间距
+            
+            /* 统一设置所有子元素在副轴方向上的排列
+                flex-start：在副轴起点对齐
+                flex-end：在副轴终点对齐
+                center：在副轴中间对齐
+            */
+            align-items: center;
+
+按比例份额分配属性:
+flex总是占剩下部分的比例:
+	li:nth-child(1){
+		width:200;父盒子宽为600,剩下400的	话1/4;
+			flex:1;占父元素宽度的1分
+	li:nth-child(2){
+设置单个自身位置:align-self:
+	flex-end:自身在终点
+	center:居中
+			flex:2:占两份
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
